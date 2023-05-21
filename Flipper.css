@@ -11,7 +11,7 @@ h3{
 .nav-center{
     border: 2px solid black;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 20px;
     background-color: aliceblue;
@@ -50,4 +50,12 @@ h2{
   border-radius: 8px;
   border:2px solid black;
   font-weight: 600;
+  cursor: pointer;
+
+}
+.btn:active {
+    background-color:transparent;
+  }
+    
+
 }
